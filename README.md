@@ -23,36 +23,36 @@
 
 ## 2.Modeling(Language Models 建立語言模型) : 其實語言模型指的就是一種將文字轉為數字表達的方法。
 
-    - 2.A Word to Vector
-        - Tradition : BoW(詞袋模型-關鍵次數出現次數) : By using "One-hot encoding"
-            - 傳統BOW的缺點非常多 :
-                - A.容易造成維度災難(curse of dimensionality)
-                - B.向量表達過於稀疏(sparse)
-                - C.無法表達語意
+- 2.A Word to Vector
+    - Tradition : BoW(詞袋模型-關鍵次數出現次數) : By using "One-hot encoding"
+        - 傳統BOW的缺點非常多 :
+            - A.容易造成維度災難(curse of dimensionality)
+            - B.向量表達過於稀疏(sparse)
+            - C.無法表達語意
 
-        - Advance : 
-        - 因此Word2vec有了升級版BOW Model-> TF-IDF/ CBoW
-            - TF-IDF :  分成兩個部份，TF和IDF。分別表示詞頻（term frequency，tf）和逆向檔案頻率（inverse document frequency，idf）。和Word2Vec一樣，是種 "將文字轉換為向量的方式"。
-            - CBoW(Continuous Bag of Words)
-            - skip-gram
-            - CBOW
-            - Clustering
-            - K-means
-            - average word vec
-            - doc2vec
-            - XGBoost train model
-            - Plot result
+    - Advance : 
+    - 因此Word2vec有了升級版BOW Model-> TF-IDF/ CBoW
+        - TF-IDF :  分成兩個部份，TF和IDF。分別表示詞頻（term frequency，tf）和逆向檔案頻率（inverse document frequency，idf）。和Word2Vec一樣，是種 "將文字轉換為向量的方式"。
+        - CBoW(Continuous Bag of Words)
+        - skip-gram
+        - CBOW
+        - Clustering
+        - K-means
+        - average word vec
+        - doc2vec
+        - XGBoost train model
+        - Plot result
 
-    - 2.B Feature_engineering : 
-        - Base on the domain knowledge to create the Feature
-        [Reference](https://github.com/mohdahmad242/Feature-Engineering-in-NLP/blob/main/Feature_engineering_NLP.ipynb)
+- 2.B Feature_engineering : 
+    - Base on the domain knowledge to create the Feature
+    [Reference](https://github.com/mohdahmad242/Feature-Engineering-in-NLP/blob/main/Feature_engineering_NLP.ipynb)
 
-    - 2.C Model : 
-        - 其餘 Model 架構 : 
-            - CNN
-            - RNN
-            - LSTM
-            - GloVe
+- 2.C Model : 
+    - 其餘 Model 架構 : 
+        - CNN
+        - RNN
+        - LSTM
+        - GloVe
 
 ## 3.Run and take the Result(執行任務/產出結果) : 
 - Apply(應用方向)

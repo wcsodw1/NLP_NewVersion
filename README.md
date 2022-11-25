@@ -51,3 +51,36 @@
 - B.文字生成(Text Generation)：例如文本摘要(Text Summary)、作詞、作曲、製造假新聞(Fake News)、影像標題(Image captioning)...等。
 - C.翻譯(Text Translation)：多國語言互轉。
 - D.其他：克漏字、錯字更正、命名實體識別（NER）、著作風格的比對，例如紅樓夢最後幾個章節是不是曹雪芹寫的。
+
+
+========================================
+
+# NLP : 
+
+## 1.Preprocessing : 
+   - Word Cut 斷詞
+
+## 2.feature_engineering
+   - bag of words (關鍵次數出現次數)
+   - TFIDF 分成兩個部份，TF和IDF。分別表示詞頻（term frequency，tf）和逆向檔案頻率（inverse document frequency，idf）。和Word2Vec一樣，是種 "將文字轉換為向量的方式"。
+
+## 3.Word to Vector
+   - skip-gram
+   - CBOW
+   - Clustering
+   - k-means
+   - average word vec
+   - doc2vec
+
+   - XGBoost train model
+   - Plot result
+
+## 4.Predict : use RNN text classification
+
+## 5.Attention is all you need 
+   - theorem and program 
+   - wmt19 中英文對照資料集
+
+## 6.Apply
+   - PTT gossip like/dislike binary classification
+   

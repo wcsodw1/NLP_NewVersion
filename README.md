@@ -44,7 +44,7 @@
         - Plot result
 
 - 2.B Feature_engineering : 
-    - Base on the domain knowledge to create the Feature
+    - Base on the domain knowledge to create the Feature<br>
     [Reference](https://github.com/mohdahmad242/Feature-Engineering-in-NLP/blob/main/Feature_engineering_NLP.ipynb)
 
 - 2.C Model : 

@@ -45,7 +45,7 @@
 
     - 2.B Feature_engineering : 
         - Base on the domain knowledge to create the Feature
-        - [Reference](https://github.com/mohdahmad242/Feature-Engineering-in-NLP/blob/main/Feature_engineering_NLP.ipynb)
+        [Reference](https://github.com/mohdahmad242/Feature-Engineering-in-NLP/blob/main/Feature_engineering_NLP.ipynb)
 
     - 2.C Model : 
         - 其餘 Model 架構 : 

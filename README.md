@@ -62,7 +62,7 @@
     - C.翻譯(Text Translation)：多國語言互轉。
     - D.其他：克漏字、錯字更正、命名實體識別（NER）、著作風格的比對，例如紅樓夢最後幾個章節是不是曹雪芹寫的。
     - E.PTT gossip like/dislike binary classification
-    - F.POS()
+    - F.POS(詞性分析)
 
 ## 4.Evaluation (評估方法) :
     - BLEU

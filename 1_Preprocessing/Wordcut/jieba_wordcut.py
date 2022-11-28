@@ -6,27 +6,28 @@
 
 '''
 Purpose : 
-Tool : jieba.posseg as pseg : 詞性處理 | jieba.cut
+Tool : jieba.cut : word cut 
 '''
 
 
-# 1.import Library : 
+# 1.import Library :
 import os
 import jieba
-cwd = os.getcwd() # Get current working directory (CWD)
-print("Current working directory:", cwd) # Print current working directory (CWD)
+cwd = os.getcwd()  # Get current working directory (CWD)
+# Print current working directory (CWD)
+print("Current working directory:", cwd)
 
-# 2.Input sentence : 
+# 2.Input sentence :
 sentence = "獨立音樂需要大家一起來推廣，歡迎加入我們的行列！"
 print("Input：", sentence)
 
-# 3.Jieba word cut : 
+# 3.Jieba word cut :
 words = jieba.cut(sentence, cut_all=False)
 print("Output 精確模式 Full Mode：")
-for word in words: # show result
+for word in words:  # show result
     print(word)
 
-# 4.Result : 
+# 4.Result :
 '''
 獨立
 音樂

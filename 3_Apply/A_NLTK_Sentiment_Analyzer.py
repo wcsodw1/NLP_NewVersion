@@ -1,4 +1,4 @@
-# python SentimentAnalyzer.py
+# python A_NLTK_Sentiment_Analyzer.py
 
 
 '''
@@ -38,3 +38,5 @@ sentence was rated as  80.0 % Negative
 sentence was rated as  20.0 % Neutral
 sentence was rated as  0.0 % Positive
 '''
+
+# =========================================== # 

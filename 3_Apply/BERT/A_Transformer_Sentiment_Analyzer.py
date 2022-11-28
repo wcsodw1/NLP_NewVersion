@@ -1,4 +1,4 @@
-# python Sentiment_analysis.py
+# python A_Transformer_Sentiment_Analyzer.py
 # $pip install transformers==2.5.0
 # $pip install spacy-transformers==0.6.0
 '''
@@ -15,6 +15,13 @@ transformers库中已经提供了以下的几个任务，例如：
 6.CV计算机视觉
 7.Audio 音频任务
 '''
+'''
+3 possible outputs:
+LABEL_0 -> negative
+LABEL_1 -> neutral
+LABEL_2 -> positive
+'''
+
 
 from transformers import pipeline  # 通郭使用pipeline, 可以自動從模型存儲中下載合適的模型
 import os
@@ -22,11 +29,15 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 
 # A.sentiment-analysis :
+# 1.sentiment-analysis :
 classifier = pipeline("sentiment-analysis")  # sentiment-analysis 情緒分類 分類器
 # classifier = pipeline("text-classification") # text-classification 語句分類 分類器
+# classifier = pipeline("sentiment-analysis",
+#                       model="cardiffnlp/twitter-roberta-base-sentiment",
+#                       tokenizer="cardiffnlp/twitter-roberta-base-sentiment")
 
 
-# test1 :
+# B.results = classifier(["We are very happy to show you the 🤗 Transformers library.", "We hope you don't hate it."])
 # results = classifier("I'm so happy today!")
 # print(f"{results[0]['label']} with score {results[0]['score']}")
 
@@ -35,3 +46,9 @@ results = classifier(
     ["I'm so happy today!", "I hope you don't hate him...", "you suck"])
 for result in results:
     print(f"{result['label']} with score {result['score']}")
+
+
+# Result :
+# LABEL_2 with score 0.9917560815811157
+# LABEL_1 with score 0.5936758518218994
+# LABEL_0 with score 0.9578036069869995

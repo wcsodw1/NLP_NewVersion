@@ -50,11 +50,18 @@
     [Reference](https://github.com/mohdahmad242/Feature-Engineering-in-NLP/blob/main/Feature_engineering_NLP.ipynb)
 
 - 3.C Model : 
+    - BERT : 
+        [CLS]：在做分類任務時其最後一層的 repr. 會被視為整個輸入序列的 repr.
+        [SEP]：有兩個句子的文本會被串接成一個輸入序列，並在兩句之間插入這個 token 以做區隔
+        [UNK]：沒出現在 BERT 字典裡頭的字會被這個 token 取代
+        [PAD]：zero padding 遮罩，將長度不一的輸入序列補齊方便做 batch 運算
+        [MASK]：未知遮罩，僅在預訓練階段會用到
     - 其餘 Model 架構 : 
         - CNN
         - RNN
         - LSTM
         - GloVe
+
 
 ## 4.Apply - Run and take the Result(執行任務/產出結果) : 
 - Apply(應用方向)

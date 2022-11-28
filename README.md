@@ -10,6 +10,7 @@
 - 以NLP來說，preprocessing通常包含兩個重要工作：爬蟲(crawling)及斷詞(tokenization)。
     - 1.A Crawling : 
         - 常用的爬蟲套件有requests和Beautiful Soup, Selenium等等
+        - Selensium Project 
 
     - 1.B Tokenization( = word segmentation) : 
         - Data cleaning
@@ -54,13 +55,14 @@
         - LSTM
         - GloVe
 
-## 3.Run and take the Result(執行任務/產出結果) : 
+## 3.Apply - Run and take the Result(執行任務/產出結果) : 
 - Apply(應用方向)
     - A.文字分類(Text Classification)：例如情緒分析(Sentiment Analysis)、主題的分類、垃圾信(Spam)的辨識、...等，乃至於聊天機器人(ChatBot)。
     - B.文字生成(Text Generation)：例如文本摘要(Text Summary)、作詞、作曲、製造假新聞(Fake News)、影像標題(Image captioning)...等。
     - C.翻譯(Text Translation)：多國語言互轉。
     - D.其他：克漏字、錯字更正、命名實體識別（NER）、著作風格的比對，例如紅樓夢最後幾個章節是不是曹雪芹寫的。
-    - PTT gossip like/dislike binary classification
+    - E.PTT gossip like/dislike binary classification
+    - F.POS()
 
 ## 4.Evaluation (評估方法) :
     - BLEU
@@ -71,4 +73,5 @@
 ## 5.Others Tool : Attention is all you need 
    - theorem and program 
    - wmt19 中英文對照資料集
+
 <hr\>

@@ -11,6 +11,7 @@
     - Crawling : 
         - 常用的爬蟲套件有requests和Beautiful Soup, Selenium等等
         - Selensium Project 
+    - Keyword Extract : TF-IDF
 
 ## 2.Word2Vec(Tokenization(word segmentation)) : 
         - Data cleaning
@@ -57,12 +58,13 @@
 
 ## 4.Apply - Run and take the Result(執行任務/產出結果) : 
 - Apply(應用方向)
-    - A.文字分類(Text Classification)：例如情緒分析(Sentiment Analysis)、主題的分類、垃圾信(Spam)的辨識、...等，乃至於聊天機器人(ChatBot)。
-    - B.文字生成(Text Generation)：例如文本摘要(Text Summary)、作詞、作曲、製造假新聞(Fake News)、影像標題(Image captioning)...等。
+    - A.Text Classification(文字分類)：例如情緒分析(Sentiment Analysis)、主題的分類、垃圾信(Spam)的辨識、...等，乃至於聊天機器人(ChatBot)。
+    - B.Text Generation(文字生成)：例如文本摘要(Text Summary)、作詞、作曲、製造假新聞(Fake News)、影像標題(Image captioning)...等。
     - C.翻譯(Text Translation)：多國語言互轉。
     - D.其他：克漏字、錯字更正、命名實體識別（NER）、著作風格的比對，例如紅樓夢最後幾個章節是不是曹雪芹寫的。
     - E.PTT gossip like/dislike binary classification
     - F.POS [詞性分析](/)
+
 
 ## 5.Evaluation (評估方法) :
     - BLEU

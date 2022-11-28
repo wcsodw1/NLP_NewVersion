@@ -123,3 +123,6 @@ Dense Network
 LSTM
 GRU
 Ensembling
+
+# Hugging Face Other Apply : 
+[Transformer huggingface](https://huggingface.co/docs/transformers/main_classes/pipelines)

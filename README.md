@@ -8,11 +8,11 @@
 
 ## 1.Preprocessing(預/前處理) : 
 - 以NLP來說，preprocessing通常包含兩個重要工作：爬蟲(crawling)及斷詞(tokenization)。
-    - 1.A Crawling : 
+    - Crawling : 
         - 常用的爬蟲套件有requests和Beautiful Soup, Selenium等等
         - Selensium Project 
 
-    - 1.B Tokenization( = word segmentation) : 
+## 2.Word2Vec(Tokenization(word segmentation)) : 
         - Data cleaning
         - Word Cut(斷詞), tokenization
         - stemming?!!
@@ -22,9 +22,9 @@
         - !中文的tokenization特別會有粒度(granularity)的問題-> 相較英文，中文多了好幾種不同的斷詞方式。這是因為在中文裡，並沒有像英文裡空白的機制可以用來區分字與字之間的間隔。
         <br>[Reference](https://medium.com/@derekliao_62575/nlp%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%9F%B7%E8%A1%8C%E6%AD%A5%E9%A9%9F-i-%E8%AA%9E%E6%96%99%E7%9A%84%E9%A0%90%E8%99%95%E7%90%86-preprocessing-8538f0b763d6)
 
-## 2.Modeling(Language Models 建立語言模型) : 其實語言模型指的就是一種將文字轉為數字表達的方法。
+## 3.Modeling(Language Models 建立語言模型) : 其實語言模型指的就是一種將文字轉為數字表達的方法。
 
-- 2.A Word to Vector
+- 3.A Word to Vector
     - Tradition : BoW(詞袋模型-關鍵次數出現次數) : By using "One-hot encoding"
         - 傳統BOW的缺點非常多 :
             - A.容易造成維度災難(curse of dimensionality)
@@ -44,18 +44,18 @@
         - XGBoost train model
         - Plot result
 
-- 2.B Feature_engineering : 
+- 3.B Feature_engineering : 
     - Base on the domain knowledge to create the Feature<br>
     [Reference](https://github.com/mohdahmad242/Feature-Engineering-in-NLP/blob/main/Feature_engineering_NLP.ipynb)
 
-- 2.C Model : 
+- 3.C Model : 
     - 其餘 Model 架構 : 
         - CNN
         - RNN
         - LSTM
         - GloVe
 
-## 3.Apply - Run and take the Result(執行任務/產出結果) : 
+## 4.Apply - Run and take the Result(執行任務/產出結果) : 
 - Apply(應用方向)
     - A.文字分類(Text Classification)：例如情緒分析(Sentiment Analysis)、主題的分類、垃圾信(Spam)的辨識、...等，乃至於聊天機器人(ChatBot)。
     - B.文字生成(Text Generation)：例如文本摘要(Text Summary)、作詞、作曲、製造假新聞(Fake News)、影像標題(Image captioning)...等。
@@ -64,13 +64,13 @@
     - E.PTT gossip like/dislike binary classification
     - F.POS [詞性分析](/)
 
-## 4.Evaluation (評估方法) :
+## 5.Evaluation (評估方法) :
     - BLEU
     - ROUGE : Rouge-N/ Rouge-L/ Rouge-W
     - METEOR
     - CIDEr
 
-## 5.Others Tool : Attention is all you need 
+## 6.Others Tool : Attention is all you need 
    - theorem and program 
    - wmt19 中英文對照資料集
 

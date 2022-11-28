@@ -56,7 +56,7 @@
         [UNK]：沒出現在 BERT 字典裡頭的字會被這個 token 取代
         [PAD]：zero padding 遮罩，將長度不一的輸入序列補齊方便做 batch 運算
         [MASK]：未知遮罩，僅在預訓練階段會用到
-    - 其餘 Model 架構 : 
+    - 其餘 Model 架構 : TF | Pytorch
         - CNN
         - RNN
         - LSTM
